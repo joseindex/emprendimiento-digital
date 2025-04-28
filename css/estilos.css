@@ -1,0 +1,132 @@
+/* Aplicando reglas universales*/
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+
+}
+
+/*  Estilos generales del sitio  */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: rgba(53, 50, 50, 0.833);
+    color:  #ffffff;
+}
+
+/*  Definir el estilo del encabezado */
+
+header{
+    background-color: #ADD3E1;
+    padding: 20px;
+    text-align: center;
+    color: #151617;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); /*sobrea*/
+    
+    
+
+}
+
+/* Estilos del logo*/
+
+.logo{
+    width: 100px;
+}
+
+/*Estilos del navegador*/
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+}
+
+/*Estilos de los items de la lista*/
+
+nav ul li{
+    margin: 0 15px;
+}
+
+/*Estilos a los enlaces del navegador */
+
+nav ul li a{
+    color:rgb(4, 4, 4);
+    text-decoration:  none;
+    font-weight: bold;
+
+
+
+}
+/*Estilos a los enlaces cuando se passa el mouse*/
+nav ul li a:hover{
+
+    text-decoration: underline;
+    color:aqua;
+}
+/*Estilo al area principal */
+
+main {
+    padding: 30px;
+    text-align: center;
+
+}
+
+/*estilos a la seccion*/
+
+section {
+
+    margin-bottom: 40px;
+    padding: 20px;/*doble marge*/
+    background-color: #ADD3E1;
+    color:  #0e0d0d;
+    border-radius: 10px;/*redonde los bordes*/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); /*sobrea*/
+}
+
+/*pie de pagina*/
+
+footer{
+    background-color: black;
+    color: #ADD3E1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); /*sobrea*/
+}
+
+/*Estilos de imagenes*/
+
+img{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+
+}
+
+/*estilos de las tarjetas de serivicios*/
+
+.tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /*es para acomodar el texto a cualquier dimension que se haga la pagina*/
+    margin-top: 20px;
+
+}
+
+/*estilos a cada tarjeta*/
+
+.tarjeta{
+    background-color: rgb(122, 197, 199);
+    padding: 20px;
+    border: 2px solid #0e0d0d;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 1); /*sobrea*/
+    width: 30%;
+    margin: 10px;
+}
