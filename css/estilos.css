@@ -130,3 +130,31 @@ img{
     width: 30%;
     margin: 10px;
 }
+
+/*Diseño responsivo*/
+
+@media (max-width: 768px){
+    /*cambiar la orientacion de columnas del menu*/
+    nav ul{
+        flex-direction: column;
+    }
+
+    /*ajustar los margenes superiores entre cada menu*/
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /*colocar las tarjetas una debajo de otra*/
+
+    .tarjetas{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*cada tarjeta ocupa el 80% del espacio disponible*/
+
+    .tarjeta{
+        width: 80%;
+    }
+}
