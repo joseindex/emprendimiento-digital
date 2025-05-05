@@ -60,3 +60,10 @@ A continuación, puedes ver algunas capturas de pantalla del sitio:
 - **Página del plan premium**:
   ![Página premium](img/paginapremium.PNG)
 
+
+## **Autores** ✒️
+
+[Jose Oña](https://github.com/joseindex) 
+---
+⌨️ con ❤️ por [Jose Oña](https://github.com/joseindex) 😊
+
