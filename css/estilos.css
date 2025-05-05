@@ -202,3 +202,44 @@ img{
     margin-top: 15px;
     border-radius: 8px;
 }
+
+/* CSS para hacer la imagen más pequeña dentro del artículo */
+article img {
+    width: 150px;  /* Cambia el tamaño de la imagen ajustando este valor */
+    height: auto;  /* Mantén la relación de aspecto */
+}
+
+/* Estilo para la imagen en la sección Sobre Nosotros */
+main img {
+    width: 250px; /* Ajusta este valor según lo que necesites */
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Estilo para las imágenes dentro de las tarjetas (Planes de Precios) */
+.tarjeta img {
+    width: 30%; /* Hace que la imagen ocupe todo el ancho de la tarjeta */
+    max-height: 200px; /* Limita la altura de la imagen para que no se haga más grande que esto */
+    object-fit: cover; /* Asegura que la imagen se recorte y se ajuste bien sin deformarse */
+    border-radius: 8px; /* Redondea las esquinas de la imagen */
+}
+
+/* Ajustar las imágenes en el artículo "Consultoría Digital" */
+article img {
+    width: 100%; /* Ajusta la imagen al 100% del contenedor del artículo */
+    max-width: 200px; /* Limita el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Ajusta la imagen a su contenedor */
+    margin: 0 auto; /* Centra la imagen si es más pequeña que el contenedor */
+}
+
+.plan-info img {
+    width: 30%; 
+    height: auto; 
+}
+
+main section img {
+    
+    width: 40%; 
+    height: auto; 
+}
+
